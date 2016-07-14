@@ -4,11 +4,358 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="../res/project.css">
-    <title>console.log(window)</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <title>Magazine</title>
 </head>
 <body>
-<ol id="tree">
-</ol>
+<header class="header">
+    <nav>
+        <ul class="three-lines">
+            <li><a></a></li>
+        </ul>
+        <ul class="bar">
+            <li><a>Home</a></li>
+            <li><a>Store</a></li>
+            <li><a>Blog</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        <ul class="avatar">
+            <li><a></a></li>
+        </ul>
+        <ul class="nets">
+            <li class="fb"><a></a></li>
+            <li class="tw"><a></a></li>
+            <li class="google"><a></a></li>
+        </ul>
+        <ul class="magnifying-glass">
+            <li><a></a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="contacts">
+        <div class="details">
+            <div class="ver-menu">
+                <nav>
+                    <ul>
+                        <li><a class="tablinks" onclick="openTab(event, 'home')"><span class="home"></span>Home</a></li>
+                        <li><a class="tablinks" onclick="openTab(event, 'store')"><span class="cart"></span>Store</a></li>
+                        <li><a class="tablinks active" onclick="openTab(event, 'blog')"><span class="blog"></span>Blog</a></li>
+                        <li><a class="tablinks" onclick="openTab(event, 'community')"><span class="community"></span>Community</a></li>
+                        <li><a class="tablinks" onclick="openTab(event, 'contests')"><span class="trophy"></span>Contests</a></li>
+                        <li><a class="tablinks" onclick="openTab(event, 'about')"><span class="icon"></span>About</a></li>
+                        <li><a class="tablinks" onclick="openTab(event, 'contact')"><span class="mail-2"></span>Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="address">
+                    <div>
+                            <i class="phone"></i>
+                            <p>
+                                <span><a>(912) 555-1234</a></span>
+                                <span><a>(912) 555-5678</a></span>
+                            </p>
+                    </div>
+                    <div>
+                            <i class="flag"></i>
+                            <p>
+                                <span>1600 Pennsylvania</span>
+                                <span>Ave NW, Washington</span>
+                                <span>Ave NW, Washington</span>
+                            </p>
+                    </div>
+                    <div>
+                            <i class="mail"></i>
+                            <p>
+                                <span><a>hello@website.com</a></span>
+                                <span><a>office@website.com</a></span>
+                            </p>
+                    </div>
+                </nav>
+            </div>
+            <div class="tabcontent" id="home">
+                <nav>
+                    <ul>
+                        <li><a><span>Home</span><span class="arr"></span></a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Home</span><span class="arr"></span></a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Home</span><span class="arr"></span></a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Home</span><span class="arr"></span></a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="store">
+                <nav>
+                    <ul>
+                        <li><a><span>Store</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Store</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Store</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Store</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="blog">
+                <nav>
+                    <ul>
+                        <li><a><span>Tech</span><span class="arr"></span></a></li>
+                        <li><a>Software & Apps</a></li>
+                        <li><a>Gadgets</a></li>
+                        <li><a>Mobile</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Entertainment</span><span class="arr"></span></a></li>
+                        <li><a>Film</a></li>
+                        <li><a>Gaming</a></li>
+                        <li><a>Music</a></li>
+                        <li><a>Sport</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Business</span><span class="arr"></span></a></li>
+                        <li><a>Jobs</a></li>
+                        <li><a>Marketing</a></li>
+                        <li><a>Media</a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Lifestyle</span><span class="arr"></span></a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Health & Fitness</a></li>
+                        <li><a>Travel & Leisure</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="community">
+                <nav>
+                    <ul>
+                        <li><a><span>Community</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Community</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Community</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Community</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="contests">
+                <nav>
+                    <ul>
+                        <li><a><span>Contests</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contests</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contests</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contests</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="about">
+                <nav>
+                    <ul>
+                        <li><a><span>About</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>About</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>About</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>About</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tabcontent" id="contact">
+                <nav>
+                    <ul>
+                        <li><a><span>Contact</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contact</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contact</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                    <ul>
+                        <li><a><span>Contact</span><span class="arr"></span></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="socials-wrap">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a><span class="fb-2"></span>Facebook</a></li>
+                            <li><a><span class="tw-2"></span>Twitter</a></li>
+                            <li><a><span class="google-2"></span>Google+</a></li>
+                            <li><a><span class="rss"></span>Rss Feeds</a></li>
+                            <li><a><span class="pint"></span>Pinterest</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="follow">
+                    <div>
+                        <i class="fb-3"></i>
+                        <p>
+                            <span>156K</span><span><a id="fb-toggle"><span id="fb-text">Follow</span><i id="fb-logo" class="sign"></i></a></span>
+                        </p>
+                    </div>
+                    <div>
+                        <i class="tw-3"></i>
+                        <p>
+                            <span>89K</span><span><a id="tw-toggle"><span id="tw-text">Follow</span><i id="tw-logo" class="sign"></i></a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-in">
+                <h3>Sign In</h3>
+                <p>Just select your favorite social network to get started</p>
+                <nav>
+                    <ul>
+                        <li><a class="sign-fb"></a></li>
+                        <li><a class="sign-tw"></a></li>
+                        <li><a class="sign-google"></a></li>
+                        <li><a class="sing-lin"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="newsletter">
+                <h3>Join the Newsletter</h3>
+                <p>Sign up for our personalized daily newsletter</p>
+                <form method="post">
+                    <input type="text" name="newsletter" placeholder="Enter email address">
+                    <button>SIGN UP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="story">
+            <div class="slide">
+                <h2>Featured Story</h2>
+                <p>Now that the holiday gift-giving day is over, we're sure many of our readers unwrapped some new consoles. Despite its long life on the market...</p>
+                <button>VIEW MORE</button>
+            </div>
+            <div class="slide"><h2>2</h2></div>
+            <div class="slide"><h2>3</h2></div>
+            <div class="slide"><h2>4</h2></div>
+    </section>
+    <section>
+        <div class="best">
+            <i class="camera"></i>
+            <h3>Best story you have ever heard</h3>
+            <p>24 minutes ago</p>
+            <p>Lorem ipsum is silly dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's... <span>Read more</span></p>
+        </div>
+        <div class="actions">
+                 <button class="like"></button>
+                 <button class="later"></button>
+                 <button class="share"></button>
+        </div>
+        <div class="video"></div>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script src="js/magazine.js"></script>
 </body>
 </html>
