@@ -12,6 +12,42 @@ let i, tabcontent, tablinks;
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+let bottomTabContent, bottomLink;
+bottomTabContent = document.getElementsByClassName("bottomTabContent");
+bottomTabContent[1].style.display = "block";
+function openBottomTab(evt, tabName) {
+    for (i = 0; i < bottomTabContent.length; i++) {
+        bottomTabContent[i].style.display = "none";
+    }
+    bottomLink = document.getElementsByClassName("tablinks");
+    for (i = 0; i < bottomLink.length; i++) {
+        bottomLink[i].className = bottomLink[i].className.replace("active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+$(document).ready(function(){
+    fbToggle();
+    twToggle();
+    $('.story').slick({
+        dots: true,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: false
+    });
+    $('.hot-sliders').slick({
+        dots: true,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: false,
+        appendDots: $(".hot")
+    });
+    rmText();
+});
 function fbToggle() {
     let toggle = document.getElementById("fb-toggle"),
         text = document.getElementById("fb-text"),
@@ -44,21 +80,6 @@ function twToggle() {
             }
         };
 }
-$(document).ready(function(){
-    fbToggle();
-    twToggle();
-    $('.story').slick({
-       dots: true,
-       focusOnSelect: true,
-       speed: 500,
-       infinite: true,
-       slidesToShow: 1,
-       slidesToScroll: 1,
-       draggable: false,
-       respondTo: window
-    });
-    rmText();
-});
 function rmText() {
     let dots = $(".slick-dots button"),
         arrows = $(".slick-arrow");
@@ -69,4 +90,3 @@ function rmText() {
         arrows[i].innerHTML = "";
     }
 }
-

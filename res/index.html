@@ -339,18 +339,175 @@
             <div class="slide"><h2>4</h2></div>
     </section>
     <section>
-        <div class="best">
+        <div class="post">
             <i class="camera"></i>
             <h3>Best story you have ever heard</h3>
             <p>24 minutes ago</p>
-            <p>Lorem ipsum is silly dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's... <span>Read more</span></p>
+            <p>Lorem ipsum is silly dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's... <a>Read more</a></p>
         </div>
         <div class="actions">
-                 <button class="like"></button>
-                 <button class="later"></button>
-                 <button class="share"></button>
+                 <button><i class="heart-linear"></i>Like</button>
+                 <button><i class="clock"></i>Later</button>
+                 <button><i class="share"></i>Share</button>
         </div>
-        <div class="video"></div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/Oj8cpwDfOhA" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section>
+        <div class="like">
+            <nav>
+                <ul>
+                    <li><a><span class="share"></span>1,325</a></li>
+                    <li><a><span class="heart-filled"></span>682</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="post post-2">
+            <i class="photo"></i>
+            <h3>Here's What Instagram Ads Will Look Like</h3>
+            <p>3 hours ago</p>
+            <p>Lorem ipsum is silly dummy text of the printing and typesetting industry... <a>Read more</a></p>
+        </div>
+        <div></div>
+    </section>
+    <section class="divided">
+        <div class="col-1">
+            <div class="tweets">
+                <div>
+                    <p><span>Alex White</span> @alexwhite</p><i></i>
+                </div>
+                <div>
+                    <p>Singolo is a free PSD template of a flat, single page website created by <span>@PsdChat #freebie #psd http://bit.ly/19XM8Lj</span></p>
+                    <p>2 hours ago</p>
+                </div>
+                <div>
+                    <p>Saturday career workshops are back at ADC! See what high school students created this week: <span>http://bit.ly/Xx1EsL</span></p>
+                    <p>6 hours ago</p>
+                </div>
+            </div>
+            <div class="hot">
+                <h3>What's Hot</h3>
+                <div class="hot-sliders">
+                    <div>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <i></i>
+                                    <p>
+                                        <a>A New Yorker doesn't necessarily come from...</a>
+                                        <span>3 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <p>
+                                        <a>A New Yorker never looks up...</a>
+                                        <span>7 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <p>
+                                        <a>A New Yorker doesn't take cabs...</a>
+                                        <span>23 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <p>
+                                        <a>A New Yorker views celebrities as regular...</a>
+                                        <span>3 hours ago</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <p>
+                                        <a>A New Yorker can't live without coffee...</a>
+                                        <span>3 hours ago</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div>22</div>
+                    <div>333</div>
+                </div>
+            </div>
+            <div class="ask">
+                <h3>Ask a Question</h3>
+                <form method="post">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Your email">
+                    <textarea placeholder="Your question..." id="question"></textarea><label for="question"></label>
+                </form>
+                <button>SUBMIT</button>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="calendar-wrap">
+                <div class="calendar"></div>
+                <div class="viewMore">
+                    <h2>VIEW MORE STORIES<br><a><span class="viewMoreArrow"></span></a></h2>
+                </div>
+            </div>
+            <div class="new">
+                <div class="corner"><span>NEW</span></div>
+            </div>
+            <div class="lorem">
+                <i class="page"></i>
+                <h3>What is Lorem Ipsum?</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting... <span>Read more</span></p>
+                <nav>
+                    <ul>
+                        <li><a><span class="share-mint"></span>569 Shares</a></li>
+                        <li><a><span class="eye"></span>3,152 Views</a></li>
+                        <li><a><span class="speech-bubble"></span>21 Comments</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="quote">
+                <i class="bkt"></i>
+                <p>" If you don't like something change it. If you can't change it, change the way you think about it "</p>
+            </div>
+            <div class="bottomTabs">
+                <ul>
+                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomAbout')">About</a></li>
+                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomTeam')">Team</a></li>
+                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomPrivacy')">Privacy</a></li>
+                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomAdvertise')">Advertise</a></li>
+                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomContact')">Contact</a></li>
+                </ul>
+                <div id="bottomAbout" class="bottomTabContent">1</div>
+                <div id="bottomTeam" class="bottomTabContent">
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                            <p>
+                                <span>Anne Hathaway</span>
+                                <span>CEO / Founder</span>
+                            </p>
+                        </div>
+                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has..."</p>
+                        <p><a>@annehathaway</a></p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                            <p>
+                                <span>Kate Upton</span>
+                                <span>Co-Founder</span>
+                            </p>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                        <p><a>@kateupton</a></p>
+                    </div>
+                </div>
+                <div id="bottomPrivacy" class="bottomTabContent">333</div>
+                <div id="bottomAdvertise" class="bottomTabContent">4444</div>
+                <div id="bottomContact" class="bottomTabContent">55555</div>
+            </div>
+        </div>
     </section>
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
