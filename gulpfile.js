@@ -48,8 +48,8 @@ gulp.task('sprite', function() {
     config = {
         shape: {
             dimension: {
-                maxWidth: 32,
-                maxHeight: 32
+                maxWidth: 60,
+                maxHeight: 60
             },
             spacing: {
                 padding: 8

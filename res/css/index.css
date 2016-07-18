@@ -2,31 +2,31 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  src: url("res/font/Roboto/roboto-v15-latin-300.woff2") format("woff2"), url("res/font/Roboto/roboto-v15-latin-300.woff") format("woff"), url("res/font/Roboto/roboto-v15-latin-300.ttf") format("truetype"); }
+  src: url("../font/Roboto/roboto-v15-latin-300.woff2") format("woff2"), url("../font/Roboto/roboto-v15-latin-300.woff") format("woff"), url("../font/Roboto/roboto-v15-latin-300.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 300;
-  src: url("res/font/Roboto/roboto-v15-latin-300italic.woff2") format("woff2"), url("res/font/Roboto/roboto-v15-latin-300italic.woff") format("woff"), url("res/font/Roboto/roboto-v15-latin-300italic.ttf") format("truetype"); }
+  src: url("../font/Roboto/roboto-v15-latin-300italic.woff2") format("woff2"), url("../font/Roboto/roboto-v15-latin-300italic.woff") format("woff"), url("../font/Roboto/roboto-v15-latin-300italic.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("res/font/Roboto/roboto-v15-latin-regular.woff2") format("woff2"), url("res/font/Roboto/roboto-v15-latin-regular.woff") format("woff"), url("res/font/Roboto/roboto-v15-latin-regular.ttf") format("truetype"); }
+  src: url("../font/Roboto/roboto-v15-latin-regular.woff2") format("woff2"), url("../font/Roboto/roboto-v15-latin-regular.woff") format("woff"), url("../font/Roboto/roboto-v15-latin-regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("res/font/Roboto/roboto-v15-latin-500.woff2") format("woff2"), url("res/font/Roboto/roboto-v15-latin-500.woff") format("woff"), url("res/font/Roboto/roboto-v15-latin-500.ttf") format("truetype"); }
+  src: url("../font/Roboto/roboto-v15-latin-500.woff2") format("woff2"), url("../font/Roboto/roboto-v15-latin-500.woff") format("woff"), url("../font/Roboto/roboto-v15-latin-500.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("res/font/Roboto/roboto-v15-latin-700.woff2") format("woff2"), url("res/font/Roboto/roboto-v15-latin-700.woff") format("woff"), url("res/font/Roboto/roboto-v15-latin-700.ttf") format("truetype"); }
+  src: url("../font/Roboto/roboto-v15-latin-700.woff2") format("woff2"), url("../font/Roboto/roboto-v15-latin-700.woff") format("woff"), url("../font/Roboto/roboto-v15-latin-700.ttf") format("truetype"); }
 
 body {
   margin: 0;
@@ -86,7 +86,7 @@ section {
 .three-lines {
   background: #56ccc8; }
   .three-lines a {
-    background: url("../img/three-lines.svg") center 12px no-repeat; }
+    background: url("../img/sprite.svg") no-repeat 89.6% 61.8%; }
 
 .bar a:hover {
   color: #56ccc8; }
@@ -95,24 +95,24 @@ section {
   padding: 18px 28px; }
 
 .magnifying-glass {
-  background: url("../img/m-glass.svg") center 12px no-repeat; }
+  background: url("../img/sprite.svg") no-repeat 38.50267% 85%; }
 
 .nets a {
   padding: 26px 18px; }
 
 .fb {
   border-left: solid 1px #dde2e4;
-  background: url("../img/fb.svg") center 12px no-repeat; }
+  background: url("../img/sprite.svg") no-repeat 60.96257% 51.14754%; }
 
 .tw {
-  background: url("../img/tw.svg") center 12px no-repeat; }
+  background: url("../img/sprite.svg") no-repeat 74.86631% 65.60984%; }
 
 .google {
   border-right: solid 1px #dde2e4;
-  background: url("../img/google.svg") center 12px no-repeat; }
+  background: url("../img/sprite.svg") no-repeat 88.77005% 47.21311%; }
 
 .avatar a {
-  background: url("../img/avatar.svg") center 12px no-repeat; }
+  background: url("../img/sprite.svg") no-repeat 12% 84.13115%; }
 
 .contacts {
   margin: 14px auto;
@@ -149,37 +149,37 @@ section {
     border-top: solid 1px #e1e5e7; }
   .ver-menu nav:first-child li:first-child {
     border-top: none; }
-  .ver-menu nav:first-child a:hover {
+  .ver-menu nav:first-child .active, .ver-menu nav:first-child a:focus {
     background: #56ccc8;
     color: #fff; }
   .ver-menu nav:first-child .home {
-    background: url("../img/home.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 1% 50.5992%; }
   .ver-menu nav:first-child .cart {
-    background: url("../img/cart.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 28.6% 50.49834%; }
   .ver-menu nav:first-child .blog {
-    background: url("../img/blog.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 41.8% 67.97342%; }
   .ver-menu nav:first-child .community {
-    background: url("../img/community.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 1.2% 67.9%; }
   .ver-menu nav:first-child .trophy {
-    background: url("../img/trophy.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 61.62162% 34.5515%; }
   .ver-menu nav:first-child .icon {
-    background: url("../img/about.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 75.2% 1.6%; }
   .ver-menu nav:first-child .mail-2 {
-    background: url("../img/mail-2.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .home {
-    background: url("../img/home-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .cart {
-    background: url("../img/cart-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .blog {
-    background: url("../img/blog-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .community {
-    background: url("../img/community-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .trophy {
-    background: url("../img/trophy-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .icon {
-    background: url("../img/about-white.svg") no-repeat center center; }
-  .ver-menu nav:first-child a:hover .mail-2 {
-    background: url("../img/mail.svg") no-repeat center 12px; }
+    background: url("../img/sprite.svg") no-repeat 61.62162% 1.2%; }
+  .ver-menu nav:first-child .active .home {
+    background: url("../img/sprite.svg") no-repeat 14.8% 50.5%; }
+  .ver-menu nav:first-child .active .cart {
+    background: url("../img/sprite.svg") no-repeat 42.4% 50.4%; }
+  .ver-menu nav:first-child .active .blog {
+    background: url("../img/sprite.svg") no-repeat 55.6% 67.9%; }
+  .ver-menu nav:first-child .active .community {
+    background: url("../img/sprite.svg") no-repeat 15% 67.97342%; }
+  .ver-menu nav:first-child .active .trophy {
+    background: url("../img/sprite.svg") no-repeat 61.62162% 17.27575%; }
+  .ver-menu nav:first-child .active .icon {
+    background: url("../img/sprite.svg") no-repeat 29% 67%; }
+  .ver-menu nav:first-child .active .mail-2 {
+    background: url("../img/sprite.svg") no-repeat 51.2% 80.8%; }
   .ver-menu nav:first-child span {
     display: inline-block;
     width: 42px;
@@ -209,13 +209,13 @@ section {
     width: 100%; }
 
 .mail {
-  background: url("../img/mail.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 51.2% 81.4%; }
 
 .flag {
-  background: url("../img/flag.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 87% 16.8%; }
 
 .phone {
-  background: url("../img/phone.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 73.4% 34.11066%; }
 
 .tabcontent {
   display: none;
@@ -234,7 +234,7 @@ section {
     background: #263a54; }
   .tabcontent .arr {
     display: inline-block;
-    background: url("../img/arr.svg") no-repeat center center #56ccc8;
+    background: url("../img/sprite.svg") no-repeat 95.6% 27% #56ccc8;
     border-radius: 50%;
     width: 17.4px;
     height: 17.4px;
@@ -260,15 +260,15 @@ section {
       height: 32px;
       margin: 12px 20px; }
     .socials-wrap div:first-child .fb-2 {
-      background: url("../img/fb-2.svg") center center no-repeat #c5cdd1; }
+      background: url("../img/sprite.svg") no-repeat 98.8% 1.2% #c5cdd1; }
     .socials-wrap div:first-child .tw-2 {
-      background: url("../img/tw-2.svg") center center no-repeat #c5cdd1; }
+      background: url("../img/sprite.svg") no-repeat 73.8% 49.4% #c5cdd1; }
     .socials-wrap div:first-child .google-2 {
-      background: url("../img/google-2.svg") center center no-repeat #c5cdd1; }
+      background: url("../img/sprite.svg") no-repeat 98.8% 14.6% #c5cdd1; }
     .socials-wrap div:first-child .rss {
-      background: url("../img/rss.svg") center center no-repeat #c5cdd1; }
+      background: url("../img/sprite.svg") no-repeat 83.8% 96.6% #c5cdd1; }
     .socials-wrap div:first-child .pint {
-      background: url("../img/pint.svg") center center no-repeat #c5cdd1; }
+      background: url("../img/sprite.svg") no-repeat 73% 97% #c5cdd1; }
     .socials-wrap div:first-child a:hover span {
       background-color: #4fc6f8; }
     .socials-wrap div:first-child a:hover {
@@ -297,9 +297,9 @@ section {
     height: 60px;
     margin-bottom: 32px; }
   .follow div .fb-3 {
-    background: url("../img/fb-3.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 43.93064% 27.43682%; }
   .follow div .tw-3 {
-    background: url("../img/tw-3.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 2% 0; }
   .follow div a {
     display: flex;
     justify-content: center;
@@ -317,11 +317,11 @@ section {
     font-weight: 300;
     text-transform: none; }
   .follow div .sign {
-    background: url("../img/plus.svg") no-repeat center center; }
+    background: url("../img/sprite.svg") no-repeat 74.8% 81%; }
   .follow div .fb-signed {
-    background: url("../img/check-fb.svg") no-repeat center center #fff; }
+    background: url("../img/sprite.svg") no-repeat 50.8% 95.4% #fff; }
   .follow div .tw-signed {
-    background: url("../img/check-tw.svg") no-repeat center center #fff; }
+    background: url("../img/sprite.svg") no-repeat 61.8% 95.4% #fff; }
   .follow div a:hover span {
     background: none; }
 
@@ -365,16 +365,16 @@ section {
     border-radius: 50%; }
 
 .sign-fb {
-  background: url("../img/fb-2.svg") center center no-repeat #4d6baa; }
+  background: url("../img/sprite.svg") no-repeat 99.2% 1% #4d6baa; }
 
 .sign-tw {
-  background: url("../img/tw-2.svg") center center no-repeat #4fc6f8; }
+  background: url("../img/sprite.svg") no-repeat 74% 49.87213% #4fc6f8; }
 
 .sign-google {
-  background: url("../img/google-2.svg") center center no-repeat #ea6060; }
+  background: url("../img/sprite.svg") no-repeat 99.2% 14.2% #ea6060; }
 
 .sing-lin {
-  background: url("../img/lin.svg") center center no-repeat #238cc8; }
+  background: url("../img/sprite.svg") no-repeat 26.4% 83% #238cc8; }
 
 .newsletter p {
   font-size: .8rem;
@@ -465,12 +465,12 @@ section {
     left: 0;
     border-top-right-radius: 6%;
     border-bottom-right-radius: 6%;
-    background: url("../img/slick-prev.svg") no-repeat center center #fff; }
+    background: url("../img/sprite.svg") no-repeat 39% 99.86885% #fff; }
   .story .slick-next {
     right: 0;
     border-top-left-radius: 6%;
     border-bottom-left-radius: 6%;
-    background: url("../img/slick-next.svg") no-repeat center center #fff; }
+    background: url("../img/sprite.svg") no-repeat 26.2% 99.86885% #fff; }
   .story .slick-dots {
     display: flex;
     justify-content: center;
@@ -496,12 +496,12 @@ section {
 .post {
   text-align: left;
   background: #fff;
-  width: 300px;
+  min-width: 264px;
+  width: 36%;
   margin-bottom: 14px;
   padding-right: 14px;
   position: relative; }
   .post h3, .post p {
-    float: left;
     margin-left: 60px; }
   .post h3, .post p:first-child {
     width: 220px; }
@@ -529,7 +529,7 @@ section {
     height: 40px; }
 
 .camera {
-  background: url("../img/camera.svg") no-repeat center center #ea6060; }
+  background: url("../img/sprite.svg") no-repeat 1% 98.8% #ea6060; }
 
 .actions {
   background: #152840; }
@@ -546,18 +546,18 @@ section {
     margin: 0 auto; }
 
 .heart-linear {
-  background: url("../img/heart-linear.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 23.2% 27.43682%; }
 
 .clock {
-  background: url("../img/clock.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 2.6% 28%; }
 
 .share {
-  background: url("../img/share.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 23% 2%; }
 
 .video {
-  width: calc(100% - 414px); }
+  width: calc(100% - (36% + 14px)); }
   .video iframe {
-    width: 100%;
+    width: calc(100% - 100px);
     height: inherit; }
 
 .like, .post-2, .post-2 + div {
@@ -565,9 +565,9 @@ section {
   float: left; }
 
 .like {
+  float: none;
   background: #152840;
-  width: 300px;
-  margin: 0 14px 14px 0;
+  margin-bottom: 14px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -583,18 +583,24 @@ section {
     height: 40px;
     margin-bottom: 14px; }
 
+.share-2 {
+  background: url("../img/sprite.svg") no-repeat 24.8% 4%; }
+
 .heart-filled {
-  background: url("../img/heart-filled.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 45.4% 4%; }
+
+.post-2-wrap {
+  background: #787878;
+  overflow: auto;
+  margin-bottom: 14px; }
 
 .post-2 {
-  margin: 0; }
+  margin: 0;
+  width: 36%;
+  min-width: 264px; }
 
 .photo {
-  background: url("../img/photo.svg") no-repeat center center #4fc6f8; }
-
-.post-2 + div {
-  background: #787878;
-  width: calc(100% - 628px); }
+  background: url("../img/sprite.svg") no-repeat 87.8% 31.5% #4fc6f8; }
 
 .divided {
   display: flex;
@@ -637,7 +643,7 @@ section {
       width: 22px;
       height: 22px;
       border-radius: 50%;
-      background: url("../img/check-tw.svg") no-repeat center center #fff; }
+      background: url("../img/sprite.svg") no-repeat 62% 95.4% #fff; }
   .tweets p {
     margin: 0 18px;
     line-height: 1.4; }
@@ -792,7 +798,7 @@ section {
     margin-top: 22px; }
 
 .viewMoreArrow {
-  background: url("../img/viewMoreArrow.svg") no-repeat center center #fff; }
+  background: url("../img/sprite.svg") no-repeat 74.4% 19.4% #fff; }
 
 .new {
   background: #787878;
@@ -860,16 +866,16 @@ section {
     margin: 0; }
 
 .page {
-  background: url("../img/page.svg") no-repeat center center #56ccc8; }
+  background: url("../img/sprite.svg") no-repeat 88% 1% #56ccc8; }
 
 .share-mint {
-  background: url("../img/share-mint.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 14.2% 97%; }
 
 .eye {
-  background: url("../img/eye.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 2% 82%; }
 
 .speech-bubble {
-  background: url("../img/speech-bubble.svg") no-repeat center center; }
+  background: url("../img/sprite.svg") no-repeat 97% 99.8%; }
 
 .quote {
   background: #fff;
@@ -888,13 +894,14 @@ section {
     width: 40px;
     height: 40px; }
   .quote p {
-    font: 300 1.4rem "Roboto", italic;
+    font: 300 1.4rem "Roboto";
+    font-style: italic;
     line-height: 1.4;
     margin: 32px 100px;
     text-align: left; }
 
 .bkt {
-  background: url("../img/bkt.svg") no-repeat center center #56ccc8; }
+  background: url("../img/sprite.svg") no-repeat 64% 83% #56ccc8; }
 
 .bottomTabs ul {
   width: 100%;
@@ -917,7 +924,7 @@ section {
     align-items: center;
     color: #fff;
     box-sizing: border-box; }
-  .bottomTabs li a:active, .bottomTabs li a:hover {
+  .bottomTabs li .active {
     background: #fff;
     color: #475055; }
 

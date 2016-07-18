@@ -12,16 +12,16 @@ let i, tabcontent, tablinks;
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-let bottomTabContent, bottomLink;
-bottomTabContent = document.getElementsByClassName("bottomTabContent");
-bottomTabContent[1].style.display = "block";
-function openBottomTab(evt, tabName) {
+let bottomTabContent, bottomLinks;
+    bottomTabContent = document.getElementsByClassName("bottomTabContent");
+    bottomTabContent[1].style.display = "block";
+    function openBottomTab(evt, tabName) {
     for (i = 0; i < bottomTabContent.length; i++) {
         bottomTabContent[i].style.display = "none";
     }
-    bottomLink = document.getElementsByClassName("tablinks");
-    for (i = 0; i < bottomLink.length; i++) {
-        bottomLink[i].className = bottomLink[i].className.replace("active", "");
+    bottomLinks = document.getElementsByClassName("bottomLink");
+    for (i = 0; i < bottomLinks.length; i++) {
+        bottomLinks[i].className = bottomLinks[i].className.replace("active", "");
     }
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
@@ -90,3 +90,31 @@ function rmText() {
         arrows[i].innerHTML = "";
     }
 }
+$.fn.datepicker.language['en'] = {
+    days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+    daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+    months: ['January','February','March','April','May','June', 'July','August','September','October','November','December'],
+    monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    today: 'Today',
+    clear: 'Clear',
+    dateFormat: 'mm/dd/yyyy',
+    timeFormat: 'hh:ii aa',
+    firstDay: 0
+};
+let disabledDays = [5, 6];
+$('#calendar').datepicker({
+    inline: true,
+    language: 'en',
+    keyboardNav: false,
+    onRenderCell: function (date, cellType) {
+        if (cellType == 'day') {
+            var day = date.getDay(),
+                isDisabled = disabledDays.indexOf(day) != -1;
+
+            return {
+                disabled: isDisabled
+            }
+        }
+    }
+});

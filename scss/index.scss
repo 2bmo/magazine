@@ -52,7 +52,7 @@ section {
 .three-lines {
   background: $mint;
   a {
-    background: url("../img/three-lines.svg") center 12px no-repeat;
+    background: url("../img/sprite.svg") no-repeat 89.6% 61.8%;
   }
 }
 .bar {
@@ -64,7 +64,7 @@ section {
   }
 }
 .magnifying-glass {
-  background: url("../img/m-glass.svg") center 12px no-repeat;
+  background: url("../img/sprite.svg") no-repeat 38.50267379679144% 85%;
 }
 .nets {
   a {
@@ -73,17 +73,17 @@ section {
 }
 .fb {
   border-left: solid 1px $border-grey;
-  background: url("../img/fb.svg") center 12px no-repeat;
+  background: url("../img/sprite.svg") no-repeat 60.962566844919785% 51.14754098360656%;
 }
 .tw {
-  background: url("../img/tw.svg") center 12px no-repeat;
+  background: url("../img/sprite.svg") no-repeat 74.8663101604278% 65.60983606557377%;
 }
 .google {
   border-right: solid 1px $border-grey;
-  background: url("../img/google.svg") center 12px no-repeat;
+  background: url("../img/sprite.svg") no-repeat 88.77005347593582% 47.21311475409836%;
 }
 .avatar a {
-  background: url("../img/avatar.svg") center 12px no-repeat;
+  background: url("../img/sprite.svg") no-repeat 12% 84.13114754098362%;
 }
 .contacts {
   margin: 14px auto;
@@ -123,51 +123,51 @@ section {
       li:first-child {
         border-top: none;
       }
-      a:hover {
+      .active, a:focus {
         background: $mint;
         color: #fff;
       }
       .home {
-        background: url("../img/home.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 1% 50.59920106524634%;
       }
       .cart {
-        background: url("../img/cart.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 28.6% 50.498338870431894%;
       }
       .blog {
-        background: url("../img/blog.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 41.8% 67.9734219269103%;
       }
       .community {
-        background: url("../img/community.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 1.2% 67.9%;
       }
       .trophy {
-        background: url("../img/trophy.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 61.62162162162162% 34.5514950166113%;
       }
       .icon {
-        background: url("../img/about.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 75.2% 1.6%;
       }
       .mail-2 {
-        background: url("../img/mail-2.svg") no-repeat center center;
+        background: url("../img/sprite.svg") no-repeat 61.62162162162162% 1.2%;
       }
-      a:hover .home {
-        background: url("../img/home-white.svg") no-repeat center center;
+      .active .home {
+        background: url("../img/sprite.svg") no-repeat 14.8% 50.5%;
       }
-      a:hover .cart {
-        background: url("../img/cart-white.svg") no-repeat center center;
+      .active .cart {
+        background: url("../img/sprite.svg") no-repeat 42.4% 50.4%;
       }
-      a:hover .blog {
-        background: url("../img/blog-white.svg") no-repeat center center;
+      .active .blog {
+        background: url("../img/sprite.svg") no-repeat 55.6% 67.9%;
       }
-      a:hover .community {
-        background: url("../img/community-white.svg") no-repeat center center;
+      .active .community {
+        background: url("../img/sprite.svg") no-repeat 15% 67.9734219269103%;
       }
-      a:hover .trophy {
-        background: url("../img/trophy-white.svg") no-repeat center center;
+      .active .trophy {
+        background: url("../img/sprite.svg") no-repeat 61.62162162162162% 17.27574750830565%;
       }
-      a:hover .icon {
-        background: url("../img/about-white.svg") no-repeat center center;
+      .active .icon {
+        background: url("../img/sprite.svg") no-repeat 29% 67%;
       }
-      a:hover .mail-2 {
-        background: url("../img/mail.svg") no-repeat center 12px;
+      .active .mail-2 {
+        background: url("../img/sprite.svg") no-repeat 51.2% 80.8%;
       }
       span {
         display: inline-block;
@@ -206,13 +206,13 @@ section {
     }
 }
 .mail {
-  background: url("../img/mail.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 51.2% 81.4%;
 }
 .flag {
-  background: url("../img/flag.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 87% 16.8%;
 }
 .phone {
-  background: url("../img/phone.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 73.4% 34.11066286201581%;
 }
 .tabcontent {
     display: none;
@@ -235,7 +235,7 @@ section {
     }
     .arr {
       display: inline-block;
-      background: url("../img/arr.svg") no-repeat center center $mint;
+      background: url("../img/sprite.svg") no-repeat 95.6% 27% $mint;
       border-radius: 50%;
       width: 17.4px;
       height: 17.4px;
@@ -262,19 +262,19 @@ section {
       margin: 12px 20px;
     }
     .fb-2 {
-      background: url("../img/fb-2.svg") center center no-repeat $icons-grey;
+      background: url("../img/sprite.svg") no-repeat 98.8% 1.2% $icons-grey;
     }
     .tw-2 {
-      background: url("../img/tw-2.svg") center center no-repeat $icons-grey;
+      background: url("../img/sprite.svg") no-repeat 73.8% 49.4% $icons-grey;
     }
     .google-2 {
-      background: url("../img/google-2.svg") center center no-repeat $icons-grey;
+      background: url("../img/sprite.svg") no-repeat 98.8% 14.6% $icons-grey;
     }
     .rss {
-      background: url("../img/rss.svg") center center no-repeat $icons-grey;
+      background: url("../img/sprite.svg") no-repeat 83.8% 96.6% $icons-grey;
     }
     .pint {
-      background: url("../img/pint.svg") center center no-repeat $icons-grey;
+      background: url("../img/sprite.svg") no-repeat 73% 97% $icons-grey;
     }
     a:hover span {
       background-color: $light-blue;
@@ -311,10 +311,10 @@ section {
       margin-bottom: 32px;
     }
     .fb-3 {
-      background: url("../img/fb-3.svg") no-repeat center center;
+      background: url("../img/sprite.svg") no-repeat 43.93063583815029% 27.43682310469314%;
     }
     .tw-3 {
-      background: url("../img/tw-3.svg") no-repeat center center;
+      background: url("../img/sprite.svg") no-repeat 2% 0;
     }
     a {
       @include flexy(center, center);
@@ -335,13 +335,13 @@ section {
         text-transform: none;
     }
     .sign {
-       background: url("../img/plus.svg") no-repeat center center;
+       background: url("../img/sprite.svg") no-repeat 74.8% 81%;
     }
     .fb-signed {
-      background:url("../img/check-fb.svg") no-repeat center center #fff;
+      background:url("../img/sprite.svg") no-repeat 50.8% 95.4% #fff;
     }
     .tw-signed {
-      background:url("../img/check-tw.svg") no-repeat center center #fff;
+      background:url("../img/sprite.svg") no-repeat 61.8% 95.4% #fff;
     }
     a:hover span {
       background: none;
@@ -393,16 +393,16 @@ section {
   }
 }
 .sign-fb {
-  background: url("../img/fb-2.svg") center center no-repeat $fb-blue;
+  background: url("../img/sprite.svg") no-repeat 99.2% 1% $fb-blue;
 }
 .sign-tw {
-  background: url("../img/tw-2.svg") center center no-repeat $light-blue;
+  background: url("../img/sprite.svg") no-repeat 74% 49.87213114754099% $light-blue;
 }
 .sign-google {
-  background: url("../img/google-2.svg") center center no-repeat $red;
+  background: url("../img/sprite.svg") no-repeat 99.2% 14.2% $red;
 }
 .sing-lin {
-  background: url("../img/lin.svg") center center no-repeat #238cc8;
+  background: url("../img/sprite.svg") no-repeat 26.4% 83% #238cc8;
 }
 .newsletter {
   p {
@@ -500,13 +500,13 @@ section {
     left: 0;
     border-top-right-radius: 6%;
     border-bottom-right-radius: 6%;
-    background: url("../img/slick-prev.svg") no-repeat center center #fff;
+    background: url("../img/sprite.svg") no-repeat 39% 99.86885245901641% #fff;
   }
   .slick-next {
     right: 0;
     border-top-left-radius: 6%;
     border-bottom-left-radius: 6%;
-    background: url("../img/slick-next.svg") no-repeat center center #fff;
+    background: url("../img/sprite.svg") no-repeat 26.2% 99.86885245901641% #fff;
   }
   .slick-dots {
     @include flexy(center, center);
@@ -536,12 +536,12 @@ section {
 .post {
   text-align: left;
   background: #fff;
-  width: 300px;
+  min-width: 264px;
+  width: 36%;
   margin-bottom: 14px;
   padding-right: 14px;
   position: relative;
   h3, p {
-    float: left;
     margin-left: 60px;
   }
   h3, p:first-child {
@@ -576,7 +576,7 @@ section {
   }
 }
 .camera {
-  background: url("../img/camera.svg") no-repeat center center $red;
+  background: url("../img/sprite.svg") no-repeat 1% 98.8% $red;
 }
 .actions {
   background: $tabcontent-blue;
@@ -595,18 +595,18 @@ section {
   }
 }
 .heart-linear {
-  background: url("../img/heart-linear.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 23.2% 27.43682310469314%;
 }
 .clock {
-  background: url("../img/clock.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 2.6% 28%;
 }
 .share {
-  background: url("../img/share.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 23% 2%;
 }
 .video {
-  width: calc(100% - 414px);
+  width: calc(100% - (36% + 14px));
   iframe {
-    width: 100%;
+    width: calc(100% - 100px);
     height: inherit;
   }
 }
@@ -615,9 +615,9 @@ section {
   float: left;
 }
 .like {
+  float: none;
   background: $tabcontent-blue;
-  width: 300px;
-  margin: 0 14px 14px 0;
+  margin-bottom: 14px;
   @include flexy(center, center);
   li {
     float: left;
@@ -635,18 +635,24 @@ section {
     margin-bottom: 14px;
   }
 }
+.share-2 {
+  background: url("../img/sprite.svg") no-repeat 24.8% 4%;
+}
 .heart-filled {
-  background: url("../img/heart-filled.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 45.4% 4%;
+}
+.post-2-wrap {
+  background: $grey;
+  overflow: auto;
+  margin-bottom: 14px;
 }
 .post-2 {
   margin: 0;
+  width: 36%;
+  min-width: 264px;
 }
 .photo {
-  background: url("../img/photo.svg") no-repeat center center $light-blue;
-}
-.post-2+div {
-  background: $grey;
-  width: calc(100% - 628px);
+  background: url("../img/sprite.svg") no-repeat 87.8% 31.5% $light-blue;
 }
 .divided {
   @include flexy(flex-start, flex-start);
@@ -690,7 +696,7 @@ section {
       width: 22px;
       height: 22px;
       border-radius: 50%;
-      background:url("../img/check-tw.svg") no-repeat center center #fff;
+      background:url("../img/sprite.svg") no-repeat 62% 95.4% #fff;
     }
   }
   p {
@@ -866,7 +872,7 @@ section {
   }
 }
 .viewMoreArrow {
-  background: url("../img/viewMoreArrow.svg") no-repeat center center #fff;
+  background: url("../img/sprite.svg") no-repeat 74.4% 19.4% #fff;
 }
 .new {
   background: $grey;
@@ -943,16 +949,16 @@ section {
   }
 }
 .page {
-  background: url("../img/page.svg") no-repeat center center $mint;
+  background: url("../img/sprite.svg") no-repeat 88% 1% $mint;
 }
 .share-mint {
-  background: url("../img/share-mint.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 14.2% 97%;
 }
 .eye {
-  background: url("../img/eye.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 2% 82%;
 }
 .speech-bubble {
-  background: url("../img/speech-bubble.svg") no-repeat center center;
+  background: url("../img/sprite.svg") no-repeat 97% 99.8%;
 }
 .quote {
   background: #fff;
@@ -970,14 +976,15 @@ section {
     height: 40px;
   }
   p {
-    font: 300 1.4rem "Roboto", italic;
+    font: 300 1.4rem "Roboto";
+    font-style: italic;
     line-height: 1.4;
     margin: 32px 100px;
     text-align: left;
   }
 }
 .bkt {
-  background: url("../img/bkt.svg") no-repeat center center $mint;
+  background: url("../img/sprite.svg") no-repeat 64% 83% $mint;
 }
 .bottomTabs {
   ul {
@@ -998,7 +1005,7 @@ section {
       color: #fff;
       box-sizing: border-box;
     }
-    a:active, a:hover  {
+    .active  {
       background: #fff;
       color: $text-black;
     }

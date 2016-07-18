@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css">
     <title>Magazine</title>
 </head>
 <body>
@@ -345,34 +346,25 @@
             <p>24 minutes ago</p>
             <p>Lorem ipsum is silly dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's... <a>Read more</a></p>
         </div>
-        <div class="actions">
-                 <button><i class="heart-linear"></i>Like</button>
-                 <button><i class="clock"></i>Later</button>
-                 <button><i class="share"></i>Share</button>
-        </div>
         <div class="video">
+            <div class="actions">
+                <button><i class="heart-linear"></i>Like</button>
+                <button><i class="clock"></i>Later</button>
+                <button><i class="share"></i>Share</button>
+            </div>
             <iframe src="https://www.youtube.com/embed/Oj8cpwDfOhA" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
-    <section>
-        <div class="like">
-            <nav>
-                <ul>
-                    <li><a><span class="share"></span>1,325</a></li>
-                    <li><a><span class="heart-filled"></span>682</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="post post-2">
-            <i class="photo"></i>
-            <h3>Here's What Instagram Ads Will Look Like</h3>
-            <p>3 hours ago</p>
-            <p>Lorem ipsum is silly dummy text of the printing and typesetting industry... <a>Read more</a></p>
-        </div>
-        <div></div>
-    </section>
     <section class="divided">
         <div class="col-1">
+            <div class="like">
+                <nav>
+                    <ul>
+                        <li><a><span class="share-2"></span>1,325</a></li>
+                        <li><a><span class="heart-filled"></span>682</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="tweets">
                 <div>
                     <p><span>Alex White</span> @alexwhite</p><i></i>
@@ -445,8 +437,16 @@
             </div>
         </div>
         <div class="col-2">
+            <div class="post-2-wrap">
+                <div class="post post-2">
+                    <i class="photo"></i>
+                    <h3>Here's What Instagram Ads Will Look Like</h3>
+                    <p>3 hours ago</p>
+                    <p>Lorem ipsum is silly dummy text of the printing and typesetting industry... <a>Read more</a></p>
+                </div>
+            </div>
             <div class="calendar-wrap">
-                <div class="calendar"></div>
+                <div class="calendar" id="calendar"></div>
                 <div class="viewMore">
                     <h2>VIEW MORE STORIES<br><a><span class="viewMoreArrow"></span></a></h2>
                 </div>
@@ -473,7 +473,7 @@
             <div class="bottomTabs">
                 <ul>
                     <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomAbout')">About</a></li>
-                    <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomTeam')">Team</a></li>
+                    <li><a class="bottomLink active" onclick="openBottomTab(event, 'bottomTeam')">Team</a></li>
                     <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomPrivacy')">Privacy</a></li>
                     <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomAdvertise')">Advertise</a></li>
                     <li><a class="bottomLink" onclick="openBottomTab(event, 'bottomContact')">Contact</a></li>
@@ -513,6 +513,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script src="js/datepicker.min.js"></script>
 <script src="js/magazine.js"></script>
 </body>
 </html>
