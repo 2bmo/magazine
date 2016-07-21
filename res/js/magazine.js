@@ -123,3 +123,8 @@ $('#calendar').datepicker({
         }
     }
 });
+var container = document.querySelector(".details"),
+    address = document.querySelector(".address");
+if (window.innerWidth <= 500) {
+    container.appendChild(address);
+}

@@ -20,21 +20,18 @@ button {
 h2, h3, p {
   margin: 0;
 }
-section {
-  overflow: auto;
-}
 .header {
   background: #fff;
   overflow: auto;
-  ul {
-    overflow: auto;
-  }
   li {
     float: left;
-    overflow: auto;
   }
   a {
     display: inline-block;
+  }
+  div {
+    float: right;
+    overflow: auto;
   }
 }
 .three-lines, .bar {
@@ -176,7 +173,7 @@ section {
         margin: 0 12px;
       }
     }
-    nav:last-child {
+    .address {
       background: $icons-grey;
       color: #fff;
       font-size: .9rem;
@@ -511,7 +508,7 @@ section {
   .slick-dots {
     @include flexy(center, center);
     bottom: 14px;
-    margin-left: 46%;
+    margin-left: calc(50% - 49px);
     li {
       float: left;
       margin-right: 12px;
@@ -656,6 +653,7 @@ section {
 }
 .divided {
   @include flexy(flex-start, flex-start);
+  width: 100%;
 }
 .col1, .col-2 {
   float: left;
@@ -1022,6 +1020,7 @@ section {
 }
 #bottomTeam {
   text-align: left;
+  overflow: auto;
   div {
     float: left;
     width: 50%;
@@ -1066,5 +1065,320 @@ section {
   p:last-child {
     color: $light-blue;
     margin-top: 14px;
+  }
+}
+@media (max-width: 1458px) {
+  .hot {
+    height: 610px;
+  }
+}
+@media (max-width: 1419px) {
+  .hot {
+    height: 588px;
+  }
+}
+@media (max-width: 1414px) {
+  .hot {
+    height: 566px;
+  }
+}
+@media (max-width: 1197px) {
+  .ask button {
+    margin: 0 0 50px 18px;
+  }
+}
+@media (max-width: 1078px) {
+  .ask button {
+    margin: 0 0 28px 18px;
+  }
+  .quote p {
+    margin: 32px 90px;
+  }
+}
+@media (max-width: 1018px) {
+  .ask button {
+    margin: 0 0 52px 18px;
+  }
+}
+@media (max-width: 1013px) {
+  .ask button {
+    margin: 0 0 30px 18px;
+  }
+}
+@media (max-width: 1000px) {
+  body {
+    padding: 48px;
+  }
+  .quote p {
+    margin: 32px 60px;
+  }
+  .address {
+    padding-bottom: 24px;
+    i {
+      margin: 16px 4px;
+    }
+    span {
+      margin: 0 4px;
+    }
+  }
+  .calendar, .viewMore {
+    height: 260px;
+  }
+  .post h3, .post p {
+    margin-left: 52px;
+  }
+  .newsletter {
+    p {
+      margin: 8px auto 34px auto;
+    }
+    button {
+      width: 80px;
+    }
+  }
+  .bottomTabContent {
+    height: 280px;
+  }
+}
+@include breakpoint($w900) {
+  .bar a {
+    padding: 18px 20px;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
+  .details, .socials {
+    float: none;
+    width: 100%;
+  }
+  .details {
+    margin: 0 0 14px 0;
+  }
+  .address i {
+    margin: 16px 12px;
+  }
+  .post, .video {
+    float: none;
+  }
+  .post {
+    width: calc(100% - 24px);
+    padding-right: 24px;
+    overflow: auto;
+  }
+  .video {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+  .col-1, .col-2 {
+    float: none;
+    width: 100%;
+  }
+  .divided {
+    display: block;
+  }
+  .col-1 {
+    margin-bottom: 14px;
+  }
+  .story .slide button {
+    padding: 14px 28px;
+  }
+}
+@include breakpoint($w800) {
+  .bottomTabContent {
+    height: 260px;
+  }
+  .header div {
+    width: 100%;
+    border-top: solid 1px $border-grey;
+  }
+
+  .bar {
+    a {
+      padding: 18px 4px;
+    }
+    @include flexy(space-around, center);
+    width: calc(100% - 56px);
+  }
+  .magnifying-glass {
+    float: left;
+    background-position: 37.6% 85%;
+  }
+}
+@include breakpoint($w700) {
+  body {
+    padding: 36px;
+  }
+}
+@include breakpoint($w600) {
+  body {
+    padding: 32px;
+  }
+  .address i {
+    margin: 16px 6px 16px 12px;
+  }
+  .story {
+    .slide {
+      padding: 40px 44px;
+    }
+    .slick-arrow {
+      height: 44px;
+      width: 28px;
+    }
+    .slick-prev {
+      background-position: 39.2% 99%;
+    }
+    .slick-next {
+      background-position: 26.4% 99%;
+    }
+    p {
+      width: auto;
+    }
+    .slick-dots li button {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .actions button {
+    width: 80px;
+  }
+  .video iframe {
+    width: calc(100% - 80px);
+  }
+  .post, .like {
+    height: 260px;
+  }
+  .calendar, .viewMore {
+    float: none;
+    width: 100%;
+  }
+  .calendar {
+    margin-bottom: 14px;
+  }
+  .quote {
+    height: auto;
+  }
+  #bottomTeam {
+    p:last-child {
+      margin-bottom: 20px;
+      margin-top: 8px;
+    }
+    div {
+      float: none;
+      width: 100%;
+    }
+  }
+  .bottomTabContent {
+    height: 412px;
+  }
+}
+@include breakpoint($w500) {
+  body {
+    padding: 20px;
+  }
+  .details div {
+    width: 100%;
+  }
+  .bottomTabContent {
+    height: 458px;
+  }
+  #bottomTeam p {
+    margin: 0 28px;
+  }
+  .quote p {
+    margin: 32px 22px 32px 48px;
+  }
+  .story h2 {
+    font-size: 2.6rem;
+  }
+  .socials-wrap {
+    display: block;
+    div {
+      float: none;
+      width: 100%;
+    }
+  }
+  .follow div {
+    width: calc(100% - 36px);
+  }
+  .socials-wrap div:first-child {
+    margin: 0 0 14px 0;
+  }
+  .actions {
+    float: none;
+    height: 90px;
+    @include flexy(space-around, center);
+    button {
+      float: left;
+      height: 90px;
+    }
+  }
+  .video {
+    margin-bottom: 14px;
+    height: auto;
+    iframe {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  .bottomTabs ul {
+    font-size: .9rem;
+  }
+  .address {
+    background: $icons-grey;
+    color: #fff;
+    font-size: .9rem;
+    line-height: 1.2;
+    padding-bottom: 4px;
+    div {
+      overflow: auto;
+    }
+    p {
+      margin: 16px 0;
+    }
+    p, i {
+      float: left;
+    }
+    span, i {
+      display: block;
+    }
+    i {
+      width: 32px;
+      height: 32px;
+      margin: 16px 14px;
+    }
+    div {
+      float: none;
+      width: 100%;
+    }
+  }
+  .tabcontent {
+    background: $tabcontent-blue;
+  }
+}
+@include breakpoint($w400) {
+  body {
+    padding: 14px;
+  }
+  .bar a, .bottomTabs ul {
+    font-size: .8rem;
+  }
+  .lorem p {
+    margin: 0 18px 0 40px;
+  }
+  .post {
+    height: 280px;
+  }
+  .sign-in p {
+    margin: 8px 8px 22px 8px;
+  }
+  .newsletter button {
+    width: 68px;
+  }
+  .story {
+    .slide button {
+      padding: 12px 18px;
+    }
+    h2 {
+      font-size: 2.4rem;
+    }
   }
 }

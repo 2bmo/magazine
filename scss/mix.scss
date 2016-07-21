@@ -2,7 +2,6 @@
 @mixin main {
   margin: 0;
   box-sizing: border-box;
-  min-width: 320px;
 }
 @mixin button-none {
   background: none;
@@ -72,7 +71,7 @@ $grey: #787878;
 $red: #ea6060;
 $light-blue: #4fc6f8;
 $text-black: #475055;
-$icons-grey: #c5cdd1; //+contacts bg
+$icons-grey: #c5cdd1;
 $border-grey: #dde2e4;
 $tabcontent-blue: #152840;
 $tabcontent-hover: #263a54;
@@ -80,3 +79,18 @@ $fb-blue: #4d6baa;
 $placeholder: #afb6ba;
 $minutes: #bcc1c4;
 $tweets-border: #7bd4fa;
+//
+$w1458: max-width 1458px;
+$w1419: max-width 1419px;
+$w1414: max-width 1414px;
+$w1197: max-width 1197px;
+$w1078: max-width 1078px;
+$w1018: max-width 1018px;
+$w1013: max-width 1013px;
+$w1000: max-width 1000px;
+$w900: max-width 900px;
+$w800: max-width 800px;
+$w700: max-width 700px;
+$w600: max-width 600px;
+$w500: max-width 500px;
+$w400: max-width 400px;

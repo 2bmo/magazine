@@ -335,3 +335,19 @@
   .datepicker--button:hover {
     color: #fff;
     background: #56ccc8; }
+@media all and (max-width: 600px) {
+  .datepicker--cell {
+    height: 38px;
+  }
+  .datepicker-inline .datepicker {
+    height: 260px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .datepicker--nav {
+    min-height: 48px;
+  }
+  .datepicker--cell {
+    height: 40.6px;
+  }
+}
